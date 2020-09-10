@@ -85,3 +85,15 @@ void MainWindow::on_spinSteps_valueChanged(int steps)
 {
     this->ui->renderArea->setStep(steps);
 }
+
+void MainWindow::on_btnBackgroundColor_clicked()
+{
+    QColor color = QColorDialog::getColor(ui->renderArea->BackgroundColor(), this , "Select Color ") ;
+    this->ui->renderArea->setBackgroundColor(color);
+}
+
+void MainWindow::on_btnLineColor_clicked()
+{
+    QColor color = QColorDialog::getColor(ui->renderArea->ShapeColor(), this , "Select Color ") ;
+    this->ui->renderArea->setShapeColor(color);
+}
