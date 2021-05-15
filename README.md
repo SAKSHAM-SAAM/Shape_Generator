@@ -1,8 +1,7 @@
 # Shape_Generator
 Neat mathematic Shape generator application with cross-platform support using QT and C++ .
-## Visualization :
-[DFD]   
-[Flow-chart]
+## Visualization :   
+![Flow-chart](https://github.com/SAKSHAM-SAAM/Shape_Generator/blob/master/Images/Flow-chart%20shape%20generator.png)
 ## Specifications
 > C++ language version used is C++ 17 with MinGW 8.10 compiler   
 > Qt opensource framework used on version 4.13 with XML UI support builtin  in QTCreator. 
@@ -28,6 +27,6 @@ To run the project locally you need Qt framework with QtCreator(version >4.26).
 ### Circle :
 ![Circle](https://github.com/SAKSHAM-SAAM/Shape_Generator/blob/master/Images/circle.PNG)
 ## Licence :
-Qt GNU lesser Genernal Public Licence(LGPL) - [LICENCE](https://github.com/SAKSHAM-SAAM/Shape_Generator/blob/master/LICENCE.txt)
+Qt GNU lesser General Public Licence(LGPL) - [LICENCE](https://github.com/SAKSHAM-SAAM/Shape_Generator/blob/master/LICENCE.txt)
 ## Contribution :
 [SAKSHAM](https://github.com/SAKSHAM-SAAM)
