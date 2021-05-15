@@ -50,7 +50,7 @@ void RenderArea::on_shape_changed (){
         mStepCount = 256 ; // 128
         break;
     case Circle:
-        mScale = 10;
+        mScale = 50;
         mIntervalLength = 2*M_PI;
         mStepCount = 128;
         break;
